@@ -1,0 +1,99 @@
+body {
+    background-color: #fcfbfb;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+  * {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+p {
+    text-align: center;
+   line-height: 1.2px;
+   
+   }
+
+   header {
+    text-align: center;
+    line-height: 1.2;
+    
+   }
+
+   h1 {
+    text-align: center;
+    line-height: 50px;
+    
+   }
+
+   h2 {
+    text-align: center;
+    line-height: 50px;
+    
+   }
+
+   table {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex; /* Lägg till flex-display */
+    justify-content: center; /* Centrera kolumner horisontellt */
+  }
+  
+  th {
+    height: 100px;
+  }
+
+   td {
+    text-align: center;
+  }
+
+  footer {
+    line-height: 100px;
+  }
+
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+  
+}
+
+button {
+  display: block;
+  margin: auto;
+  visibility: visible;
+  padding: 10px 60px;
+  background: #dac844;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+

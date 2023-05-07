@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Min hemsida</title>
+  <link rel="stylesheet" type = "text/css" href="style.css">
+  <script src="script.js" defer></script>
+
+
+ </head>
+ <body>
+<div id="json-data"></div>
+ <header>
+	<header>Copyright by hunden Bosse 2023</header>
+	<h1>Önskebrunnen</h1>
+
+	<h2>Fyll i dina drömmar och mål för att låta de gå i uppfyllelse!</h2>
+
+</header>
+
+<div class="row">
+	<div class="column">
+		<img src="https://media.istockphoto.com/id/831372148/vector/magical-fairy-with-dust-glitters.jpg?s=612x612&w=0&k=20&c=1PCi_yPFu0rMsKXJAn9wC1zHq7UnWMUsWGqX0uKjQDY=" width="100%;">
+		
+
+	</div>
+
+	<div class="column">
+		<img src="https://media.istockphoto.com/id/1241777878/sv/vektor/magic-wand-icon-vector-design.jpg?s=612x612&w=0&k=20&c=WPCGPsWTWaM3klGpdQDRQfzFD9AEo2hYONTgm9BSXt0=" width="100%;">	
+
+
+
+
+	</div>
+
+	<div class="column">
+		<img src="https://img.freepik.com/premium-vector/hand-drawn-lettering-make-wish_654192-1505.jpg" width="100%;">
+
+	</div>
+</div>
+
+
+<form id="wishform" method="post">
+  <label for="wish">Fyll i fälten och klicka nedan för att nå dina drömmar och mål:</label>
+  <br>
+  <input type="text" id="wish" placeholder="Din högsta dröm" name="wish">
+  <br>
+  <input type="text" id="goal" placeholder="Ditt största mål" name="goal">
+  
+ <button type="submit">Spara!</button>
+</form>
+<p>Klicka på på knappen för att se nyligen tillagda drömmar och mål! </p>
+
+<button onclick="getDataJSON()">Visa!</button>
+
+
+
+<div id="output"></div>
+
+      <footer>
+		<p>Följ oss på våra sociala medier</p>		
+		<a href="https://www.instagram.com/funny.animals.clips/">
+		<img src="https://p.kindpng.com/picc/s/46-463241_instagram-icon-png-white-follow-us-on-instagram.png" width="40%;"></a></footer>
+      </footer>
+  
+  </body>
+</html>
+	
+
